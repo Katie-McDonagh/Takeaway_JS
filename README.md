@@ -16,3 +16,13 @@ As a customer
 So that I am reassured that my order will be delivered on time
 I would like to receive a text such as "Thank you! Your order was placed and will be delivered before 18:52" after I have ordered
 ```
+
+Plan:
+
+class:
+menu -display_menu method
+(responsability to store menu and display it)
+order -add_to_order method
+(allows a user to pick items from the menu and store it in a basket)
+resturant -
+(like the master class will call all other methods/classes to access their info)
